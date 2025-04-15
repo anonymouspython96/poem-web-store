@@ -26,7 +26,10 @@ function App() {
           </h1>
         </section>
         <section class="content">
-          <header>Header (15% height)</header>
+          <header>
+            <h2>Profilo</h2>
+            <button>Carrello</button>
+          </header>
           <main>Main Content (70% height, scrollable)</main>
           <footer>Footer (15% height)</footer>
         </section>

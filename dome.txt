@@ -1,0 +1,4 @@
+Do this:
+
+    1- Magic Strings and Numbers!
+    2- Separate poetic members from buyers.
