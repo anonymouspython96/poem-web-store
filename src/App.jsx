@@ -4,14 +4,31 @@ import React from "react";
 function App() {
   return (
     <>
-      <div className="container">
-        <section className="sidebar">
-          <nav>Nav</nav>
+      <div class="container">
+        <section class="sidebar">
+          <h1 class="vertical-heading">
+            <span>P</span>
+            <span>O</span>
+            <span>E</span>
+            <span>S</span>
+            <span>I</span>
+            <span>E</span>
+            <br />
+            <span>P</span>
+            <span>E</span>
+            <span>R</span>
+            <br />
+            <span>T</span>
+            <span>U</span>
+            <span>T</span>
+            <span>T</span>
+            <span>I</span>
+          </h1>
         </section>
-        <section className="content">
-          <header>Header</header>
-          <main>Main Content</main>
-          <footer>Footer</footer>
+        <section class="content">
+          <header>Header (15% height)</header>
+          <main>Main Content (70% height, scrollable)</main>
+          <footer>Footer (15% height)</footer>
         </section>
       </div>
     </>
