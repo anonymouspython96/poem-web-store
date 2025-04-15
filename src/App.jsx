@@ -1,10 +1,21 @@
-import './App.css';
-import React from 'react';
+import "./App.css";
+import React from "react";
 
 function App() {
   return (
-    <h1>Hello World!</h1>
-  )
-};
+    <>
+      <div className="container">
+        <section className="sidebar">
+          <nav>Nav</nav>
+        </section>
+        <section className="content">
+          <header>Header</header>
+          <main>Main Content</main>
+          <footer>Footer</footer>
+        </section>
+      </div>
+    </>
+  );
+}
 
 export default App;
