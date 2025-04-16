@@ -27,10 +27,38 @@ function App() {
         </section>
         <section class="content">
           <header>
-            <h2>Profilo</h2>
-            <button>Carrello</button>
+            <h2>Profilo di: <em>Emilian Timofei (temporaneo)</em></h2>
+            <div class="cart">
+              <i class="fa-solid fa-shop"></i>
+              <div className="added-poems"></div>
+            </div>
           </header>
-          <main>Main Content (70% height, scrollable)</main>
+          <main>
+            <div className="poem-search">
+              <h3>Le poesie</h3>
+              <input 
+                type="search" 
+                name="poem-search" 
+                id="poem-search"
+                placeholder="Cerca una poesia"
+              />
+            </div>
+            <div className="poems">
+              <div className="poem-card">
+
+              </div>
+              <div className="poem-card">
+                
+                </div>
+                <div className="poem-card">
+                
+                </div>
+                <div className="poem-card">
+                
+                </div>
+            </div>
+
+          </main>
           <footer>Footer (15% height)</footer>
         </section>
       </div>
